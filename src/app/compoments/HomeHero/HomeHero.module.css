@@ -1,0 +1,66 @@
+.heroBox {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f6b83d;
+}
+@media screen and (max-width: 767px) {
+  .heroBox {
+    max-width: 335px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .heroBox {
+    width: 704px;
+    padding-bottom: 44px;
+
+    padding-left: 32px;
+    padding-right: 32px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+  }
+}
+
+.heroTitle {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .heroTitle {
+    margin-bottom: 32px;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -3px;
+  }
+}
+
+.heroSpan {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+@media screen and (min-width: 768px) {
+  .heroSpan {
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -3px;
+  }
+}
+
+.heroText {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
