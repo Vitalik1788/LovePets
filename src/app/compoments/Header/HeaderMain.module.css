@@ -1,0 +1,16 @@
+
+.headerBox {
+  width: 335px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #F6B83D;
+}
+
+.logoIMG {
+  width: 76px;
+  height: auto;
+  background-color: transparent;
+}
