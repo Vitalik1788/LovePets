@@ -3,7 +3,7 @@ import css from './HomeHero.module.css';
 export default function HomeHero() {
   return (
     <div className={css.heroBox}>
-      <div>
+      <div className={css.divBox}>
         <h1 className={css.heroTitle}>
           Take good <span className={css.heroSpan}>care</span> of your small
           pets
