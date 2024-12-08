@@ -15,15 +15,15 @@ export default function HeaderMain() {
       <Image className={css.logoIMG} src={logo} alt="logo" priority={true} />
       <div className={css.menuBox}>
         {isLoggedin && (
-          <div className={css.userIconBox}>
-            <FaUser size={20} className={css.userIcon} />
-          </div>
+          <>
+            <div className={css.userIconBox}>
+              <FaUser className={css.userIcon} />
+            </div>
+            <p className={css.userName}>Anna</p>
+          </>
         )}
 
-        <RxHamburgerMenu
-          size={24}
-          style={{ color: 'white', cursor: 'pointer' }}
-        />
+        <RxHamburgerMenu className={css.burgerMenuIcon} />
       </div>
     </div>
   );

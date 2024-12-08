@@ -1,25 +1,53 @@
-
 .headerBox {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 335px;
-  height: 40px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  padding-top: 28px;
+  padding-top: 18px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 60px;
-  background-color: #F6B83D;
+  background-color: #f6b83d;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .headerBox {
+    width: 704px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 112px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .headerBox {
+    width: 1216px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 127px;
+  }
 }
 
 .menuBox {
   display: flex;
   align-items: center;
+}
+
+.logoIMG {
+  width: 76px;
+  height: auto;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .logoIMG {
+    width: 106px;
+  }
 }
 
 .userIconBox {
@@ -28,18 +56,66 @@
   align-items: center;
   width: 40px;
   height: 40px;
-  margin-right: 12px;
+  margin-right: 8px;
   border-radius: 50%;
-  background-color: #FFF4DF;
+  background-color: #fff4df;
   cursor: pointer;
 }
 
-.userIcon {
-  color: #F6B83D;
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .userIconBox {
+    width: 50px;
+    height: 50px;
+  }
 }
 
-.logoIMG {
-  width: 76px;
-  height: auto;
-  background-color: transparent;
+.userIcon {
+  width: 20px;
+  height: 20px;
+  color: #f6b83d;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .userIcon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .userName {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .userName {
+    margin-right: 18px;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+}
+
+.burgerMenuIcon {
+  width: 24px;
+  height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .burgerMenuIcon {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .burgerMenuIcon {
+    display: none;
+  }
 }
