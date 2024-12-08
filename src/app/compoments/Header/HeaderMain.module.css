@@ -1,12 +1,41 @@
 
 .headerBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 335px;
   height: 40px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
+  padding-top: 28px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 60px;
   background-color: #F6B83D;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.menuBox {
+  display: flex;
+  align-items: center;
+}
+
+.userIconBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+  border-radius: 50%;
+  background-color: #FFF4DF;
+  cursor: pointer;
+}
+
+.userIcon {
+  color: #F6B83D;
 }
 
 .logoIMG {
