@@ -42,6 +42,7 @@
   width: 76px;
   height: auto;
   background-color: transparent;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -118,4 +119,71 @@
   .burgerMenuIcon {
     display: none;
   }
+}
+
+@media screen and (max-width: 1279px) {
+  .navButtonsBox {
+    display: none;
+  }
+}
+
+.navButtonsList {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.navButtonsItem {
+  padding: 15px 20px;
+  font-family: Manrope;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .authbtngroup {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .authbtngroup {
+    display: flex;
+    gap: 8px;
+    margin-right: 16px;
+  }
+}
+
+.logInBtn {
+  padding: 15px 35px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.regBtn {
+  padding: 15px 20px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  background-color: #FFF4DF;
+  color: #F6B83D;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  cursor: pointer;
 }
